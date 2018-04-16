@@ -15,7 +15,9 @@ const WrapperOne = styled.div`
   border-radius: 7px;  
 `
 
-const SearchIcon = styled.i``;
+const SearchIcon = styled.i`
+  color: white;
+`;
 
 const Input = styled.input`
   width: 91%;
@@ -33,7 +35,8 @@ const Button = styled.button`
 	border: 0;
 	color: inherit;
 	font: inherit;
-	outline: 0;
+  outline: 0;
+  cursor: pointer;
 `
 export const Search = ({onChangeInput, onClickButton}) => (
   <Wrapper>

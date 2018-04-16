@@ -1,11 +1,16 @@
 import React from 'react'
+import styled from 'styled-components'
+
 
 export class Search extends React.Component {
   
   
   render() {
     return (
-      <div>asd</div>
+      <h1>
+        F
+      </h1>
     )
   }
 }
+
