@@ -1,2 +1,5 @@
 export { Container } from './container'
+export { Header } from './header'
 export { Title } from './title'
+export { List } from './icon-list'
+export { Grid } from './icon-grid'
