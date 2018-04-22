@@ -1,3 +1,3 @@
-export { Search } from './search'
+export { SearchUI } from './search'
 export { Switcher } from './switcher'
-export { MovieCardList } from './movieCardList'
+export { MovieCardListUI } from './movieCardList'

@@ -38,7 +38,7 @@ const Button = styled.button`
   outline: 0;
   cursor: pointer;
 `
-export const Search = ({onChangeInput, onClickButton}) => (
+export const SearchUI = ({onChangeInput, onClickButton}) => (
   <Wrapper>
     <WrapperOne>
       <Input onChange={onChangeInput}/>

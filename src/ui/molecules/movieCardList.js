@@ -55,7 +55,7 @@ const RatingWrapper = styled.div`
   display: flex;
 `
 
-export const MovieCardList = ({pathImg, title, rating, genre, overview}) => (
+export const MovieCardListUI = ({pathImg, title, rating, genre, overview}) => (
   <Wrapper>
     <LeftSideWrapper>
       <ImgMovie src={pathImg}/>
