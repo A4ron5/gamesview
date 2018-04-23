@@ -4,7 +4,7 @@ import {
   FETCH_MOVIES_FAILURE
  } from './action';
 
-export const movies = (state = { isFetching: false, items: [] }, action) => {
+export const movies = (state = { isFetching: false}, action) => {
   switch (action.type) {
     case FETCH_MOVIES_REQUEST:
       return {
