@@ -10,7 +10,7 @@ export const fetchMoviesDiscoverRequest = () => ({
 
 export const fetchMoviesDiscoverSuccess = (data) => ({
   type: FETCH_MOVIES_DISCOVER_SUCCESS,
-  items: data
+  data
 });
 
 export const fetchMoviesDiscoverFailure = (error) => ({
@@ -18,7 +18,7 @@ export const fetchMoviesDiscoverFailure = (error) => ({
   error
 })
 
-export const discoverMovies = query => dispatch => {
+export const discoverMovies = () => dispatch => {
   dispatch(fetchMoviesDiscoverRequest());
 
   return api.discoverMovies()
