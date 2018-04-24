@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const ImgMovie = styled.img`
   display: block;
+  height: 300px;
 `
 const TitleMovie = styled.h3`
   font-size: 32px;
@@ -27,7 +28,8 @@ const LeftSideWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  height: 200;
+  width: 185;
   padding: 10px 20px;
 `
 
