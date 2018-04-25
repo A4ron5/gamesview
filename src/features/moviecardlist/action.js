@@ -8,9 +8,9 @@ export const fetchMoviesDiscoverRequest = () => ({
   type: FETCH_MOVIES_DISCOVER_REQUEST
 });
 
-export const fetchMoviesDiscoverSuccess = (data) => ({
+export const fetchMoviesDiscoverSuccess = ({data}) => ({
   type: FETCH_MOVIES_DISCOVER_SUCCESS,
-  data
+  ...data
 });
 
 export const fetchMoviesDiscoverFailure = (error) => ({

@@ -4,7 +4,7 @@ import {
   FETCH_MOVIES_DISCOVER_FAILURE
  } from './action';
 
-export const discover = (state = { isFetching: false, discoverData: [] }, action) => {
+export const discover = (state = { isFetching: false, items: [] }, action) => {
   switch(action.type) {
     case FETCH_MOVIES_DISCOVER_REQUEST:
       return {
@@ -15,7 +15,7 @@ export const discover = (state = { isFetching: false, discoverData: [] }, action
       return {
         ...state,
         isFetching: false,
-        discoverData: action.data.data.results
+        items: action.results
       }
     case FETCH_MOVIES_DISCOVER_FAILURE:
       return {
